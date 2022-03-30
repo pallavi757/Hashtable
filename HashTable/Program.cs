@@ -24,9 +24,10 @@ namespace HashTable
         public static void Main(string[] args)
         {
             Console.WriteLine(" Hash table program");
-            MyMapNode<string, int> storedDictionary = new MyMapNode<string, int>(5);
-            count_freq("To be or not to be", storedDictionary);
-
+           // MyMapNode<string, int> storedDictionary = new MyMapNode<string, int>(5);
+            //count_freq("To be or not to be", storedDictionary);
+            MyMapNode<string, int> newstoredDictionary = new MyMapNode<string, int>(10);
+            count_freq("Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations", newstoredDictionary);
         }
     }
 }
